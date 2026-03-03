@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int a, b, temp;
+
+    printf("Enter two numbers: ");
+    scanf("%d %d", &a, &b);
+
+    temp = a;
+    a = b;
+    b = temp;
+
+    printf("Name: apurva\n");
+    printf("After swap: %d %d\n", a, b);
+    printf("Name: apurva\n");
+
+    return 0;
+}
